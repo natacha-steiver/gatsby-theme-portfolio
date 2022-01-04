@@ -4,7 +4,7 @@ import React from "react";
 
     return(
         <footer>
-               <p>Footer</p> 
+              {/* <p>Footer</p>  */}
         </footer>
     )
 }

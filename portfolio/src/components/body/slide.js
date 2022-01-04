@@ -93,38 +93,32 @@ const Slide=()=>{
           <div>
              <Container>
               <Row  >
-              <Col id="imgAbout" xs="12" lg="6">
+              <Col id="imgAbout">
                       <img id="moiAbout" src={aboutme} alt="Natacha Steiver"/>
                       <img id="coding" src={coding} alt="coding"/>
                       <img id="design" src={design} alt="design"/>
               </Col>
 
-              <Col id="services" xs="12" lg="6" className="d-flex justify-content-center">
-              <h2></h2>
-              </Col>
               </Row>
               </Container>
 
           </div>
-          <div>
-          <a href="#">
-              <h3>2</h3>
+          {
+            photos.map(el=>{
+              return(
+                <div>
+                <a href="#">
+                    <h3>{el.title}</h3>
+                    <img style={{maxWidth:"25%"}} src={el.src} alt={el.title}/>
+      
+                    </a>
+      
+                </div>
+      
+              )
+            })
+          }
 
-              </a>
-
-          </div>
-          <div>
-            <h3>3</h3>
-          </div>
-          <div>
-            <h3>4</h3>
-          </div>
-          <div>
-            <h3>5</h3>
-          </div>
-          <div>
-            <h3>6</h3>
-          </div>
         </Slider>
 
         </div>
