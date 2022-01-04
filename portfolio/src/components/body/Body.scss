@@ -1,10 +1,61 @@
 body,html{
     margin: 0;
 }
+#services{
+    background-color:rgb(224, 223, 223);
+    min-height: 15rem;
+}
+#imgAbout{
+    background-color:rgb(224, 223, 223);
+   img{
+        display: inline-block;
+   }
+}
+#aboutMe{
+    background-color: rgb(224, 223, 223);
+    min-height: 15rem;
+    position:relative;
+    //padding-left: 5rem;
+    top:-1rem;
+    h2{
+        color:rgb(59, 106, 233);
+        margin-top: 2rem;
+    }
+    
+}
 #mainBody{
     position:relative;
-    top:4rem;
-    min-height: 100vh;
+   
+    //top:4rem;
+   
     width: 100%;
-    color:rgb(158, 159, 160);
+    color:rgb(64, 83, 102);
+    #moiAbout,#coding,#design{
+        position:relative;
+        top: 2rem;
+       
+    }
+    #moiAbout{
+        max-width: 15rem;
+    }
+    #coding{
+        max-width: 10rem;
+    }
+    #design{
+        max-width: 8rem;
+        left:5rem;
+
+    }
+
+}
+@media screen and (min-width:992px){
+    #mainBody{
+        position:relative;
+    #moiAbout,#coding{
+        position:relative;
+       
+        left: 5rem;
+    }
+}
+
 }
