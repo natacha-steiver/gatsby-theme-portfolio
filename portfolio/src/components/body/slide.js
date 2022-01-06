@@ -77,7 +77,7 @@ const photos = [
     }
     
   ];
-  
+  //!!!!!!!!!! Mettre image slide via photoshop 1280 X 240
   
 const Slide=()=>{
     var settings = {
@@ -89,31 +89,36 @@ const Slide=()=>{
       };
       return (
         <div id="mainBody">
-        <Slider {...settings} style={{margin:0,maxWidth:"70vw",position:"relative",left:"15%",backgroundColor:"rgb(224, 223, 223)"}}>
-          <div>
-             <Container>
-              <Row  >
-              <Col id="imgAbout">
-                      <img id="moiAbout" src={aboutme} alt="Natacha Steiver"/>
-                      <img id="coding" src={coding} alt="coding"/>
-                      <img id="design" src={design} alt="design"/>
-              </Col>
+        <Slider {...settings} style={window.innerWidth>992?
+        {margin:0,maxWidth:"70vw",position:"relative",left:"15%",maxHeight:"15rem"}
+      : {margin:0,maxWidth:"70vw",position:"relative",left:"15%",maxHeight:"8rem"}
 
-              </Row>
-              </Container>
-
-          </div>
+      }>
           {
             photos.map(el=>{
               return(
-                <div>
+                <Container>
+                <Row  >
+  
                 <a href="#">
-                    <h3>{el.title}</h3>
-                    <img style={{maxWidth:"25%"}} src={el.src} alt={el.title}/>
+                <div>
+              <Col id="imgAbout">
+                      <img id="moiAbout" src={aboutme} alt="Natacha Steiver"/>
+                      {/*
+                      <img id="coding" src={coding} alt="coding"/>
+                      <img id="design" src={design} alt="design"/>
+                      */}
+              </Col>
+
+             
+             
+
+          </div>
       
                     </a>
       
-                </div>
+                    </Row>
+ </Container>
       
               )
             })

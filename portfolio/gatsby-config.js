@@ -3,6 +3,9 @@ module.exports = {
   {
     resolve: 'gatsby-plugin-sass',options: {}
   },
+  {
+    resolve: 'gatsby-plugin-breakpoints',options: {}
+  },
 
   {
     resolve: "gatsby-plugin-polyfill-io",

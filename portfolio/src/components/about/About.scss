@@ -1,0 +1,28 @@
+#about{
+   // background-color: #f8f9fa;
+    overflow: hidden;
+    #aboutTitle,#info span{
+        color:#071E48;
+        font-weight: bolder;
+    }
+    #info span{
+            margin-left: 1rem;
+    }
+    #intro{
+        color:rgb(59, 106, 233);
+        position: relative;
+        margin-top:3rem;
+    }
+    img{
+        margin-top: 2rem;
+    }
+    #skillSection{
+        background-color: #f2f7fd;
+        margin-top:4rem 0;
+        overflow: hidden;
+    }
+    #sectionAbout{
+        padding:4rem;
+        overflow: hidden;
+    }
+}

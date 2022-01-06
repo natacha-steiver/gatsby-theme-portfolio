@@ -22,7 +22,7 @@ const showSettings=(event)=> {
            
              :
 <>
-  <Navbar bg="light" variant="light">
+  <Navbar  variant="light">
     <Container>
     <Navbar.Brand href="#home">Portfolio</Navbar.Brand>
     <Nav className="me-auto">
