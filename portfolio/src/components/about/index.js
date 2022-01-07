@@ -24,7 +24,7 @@ const About=()=>{
         About me
       </h2>
       <div >
-      <p>I'm a fullstack developer. I design graphic interface, front-end and back-end architecture for your web app or you mobile application .
+      <p style={{maxWidth:"80%"}}>I'm a fullstack developer. I design graphic interface, front-end and back-end architecture <br/> for your web app or you mobile application .
         I use several technologies such as javascript framework (Angular,React,Express), php oop and framework (laravel,symfony) and SQL, NO-SQL database.
 
       </p>

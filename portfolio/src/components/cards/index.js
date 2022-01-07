@@ -43,8 +43,8 @@ const Cards=()=>{
       
     //faire un map et récupérer props pour faire plusieurs cards
   return (
-      <Container>
-          <h2>My projects</h2>
+      <Container style={{marginBottom:"4rem"}}>
+          <h3>My projects</h3>
 <Row>
 {cardsList.map(el=>{
           return(
