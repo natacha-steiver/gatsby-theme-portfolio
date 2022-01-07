@@ -15,6 +15,7 @@ const ContactCard=() => {
 
 
   return (
+    
     <div id="info" className="bg-white-500">
       <div className="flex flex-col pb-2 overflow-auto">
         <div

@@ -7,5 +7,6 @@ export {default as HamburgerButton} from "../portfolio/src/components/HamburgerB
 export {default as About} from "../portfolio/src/components/about";
 export {default as ContactCard} from "../portfolio/src/components/contactCard";
 export {default as Skills} from "../portfolio/src/components/skills";
-
+export {default as Timeline} from "../portfolio/src/components/timeline";
+export {default as Cards} from "../portfolio/src/components/cards";
 

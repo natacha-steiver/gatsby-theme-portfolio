@@ -6,6 +6,7 @@ import {Row,Col} from 'react-bootstrap';
 import Container from 'react-bootstrap/Container'
 import {ContactCard} from "../../../../gatsby-theme-minimal";
 import {Skills} from "../../../../gatsby-theme-minimal";
+import {Timeline} from "../../../../gatsby-theme-minimal";
 
 
 const About=()=>{
@@ -33,9 +34,15 @@ const About=()=>{
     </Col>
 
     </Row>
+    <Row id="timelineSection">
+        <Timeline/>
+    </Row>
+
     <Row id="skillSection">
         <Skills/>
     </Row>
+
+
 
 
     </div>

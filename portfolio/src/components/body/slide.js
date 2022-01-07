@@ -81,6 +81,7 @@ const photos = [
   
 const Slide=()=>{
     var settings = {
+        autoplay:true,
         dots: true,
         infinite: true,
         speed: 500,

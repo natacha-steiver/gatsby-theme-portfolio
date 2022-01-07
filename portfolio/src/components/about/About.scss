@@ -13,16 +13,22 @@
         position: relative;
         margin-top:3rem;
     }
-    img{
+    #sectionAbout img{
         margin-top: 2rem;
     }
     #skillSection{
-        background-color: #f2f7fd;
+      //  background-color: #f2f7fd;
+      //background-color: #dcdee0d0;
+
         margin-top:4rem 0;
+        padding-bottom: 4rem;
         overflow: hidden;
     }
     #sectionAbout{
         padding:4rem;
         overflow: hidden;
+    }
+    #timelineSection{
+        background-color: #dcdee0d0;
     }
 }
