@@ -43,12 +43,12 @@ const Cards=()=>{
       
     //faire un map et récupérer props pour faire plusieurs cards
   return (
-      <Container style={{marginBottom:"4rem"}}>
+      <Container style={{marginBottom:"4rem",textAlign:"center"}}>
           <h3>My projects</h3>
 <Row>
 {cardsList.map(el=>{
           return(
-            <Col className="col-xs-12 col-md-6 col-lg-4">
+            <Col className="col-xs-12 col-md-12 col-lg-4 col-12">
              <Card sx={{ maxWidth: 345 }} style={{display:"inline-block"}}>
             <CardActionArea>
               <CardMedia

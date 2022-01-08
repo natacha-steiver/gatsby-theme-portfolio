@@ -1,4 +1,4 @@
-import React, { useState, useCallback } from "react";
+import React, { useEffect } from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./About.scss";
 import moiAbout from'../../img/moiabout.png';
@@ -7,24 +7,54 @@ import Container from 'react-bootstrap/Container'
 import {ContactCard} from "../../../../gatsby-theme-minimal";
 import {Skills} from "../../../../gatsby-theme-minimal";
 import {Timeline} from "../../../../gatsby-theme-minimal";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { ScrollToPlugin } from "gsap/ScrollToPlugin";
 
-
+gsap.registerPlugin(ScrollTrigger, ScrollToPlugin)
 const About=()=>{
+    
+    
+
+  useEffect(() => {
+    gsap.fromTo("#introSection",
+     {
+      y: 100,
+      opacity:0,
+      duration: 2,
+      delay:2,
+      scrollTrigger: {
+        trigger: "#introSection"
+      }
+    },
+    {
+      y: 0,
+      opacity:1,
+      duration: 2,
+
+      scrollTrigger: {
+        trigger: "#introSection"
+      }
+    }
+
+    );
+
+  }, []);
       return (
       
     <div  id="about">
     <Row id="sectionAbout" >
     <Col xs="12" lg="6" className="d-flex justify-content-center">
-    <img  src={moiAbout} alt="Natacha Steiver"/>
+    <img  id="moiImg " src={moiAbout} alt="Natacha Steiver"/>
     </Col>
 
-    <Col xs="12" lg="6">
+    <Col xs="12" lg="6" id="introSection">
       <span id="intro">My intro</span>
       <h2 id="aboutTitle">
         About me
       </h2>
-      <div >
-      <p style={{maxWidth:"80%"}}>I'm a fullstack developer. I design graphic interface, front-end and back-end architecture <br/> for your web app or you mobile application .
+      <div id="introP">
+      <p style={{maxWidth:"80%"}}>I'm a fullstack developer. I design graphic interface, front-end and back-end architecture  for your web app or you mobile application .
         I use several technologies such as javascript framework (Angular,React,Express), php oop and framework (laravel,symfony) and SQL, NO-SQL database.
 
       </p>
@@ -51,4 +81,5 @@ const About=()=>{
       );
 
   }
+
     export default About;

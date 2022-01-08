@@ -5,6 +5,7 @@ import {HamburgerButton} from "../../../../gatsby-theme-minimal";
 const showSettings=(event)=> {
   event.preventDefault();
 }
+//!!!!!!!!!!!!!!!! problème width > 110% smartphone
 
  const AsideTop=()=>{
 

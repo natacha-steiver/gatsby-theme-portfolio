@@ -3,8 +3,7 @@ import "./Body.scss";
 import {Slide} from "../../../../gatsby-theme-minimal";
 import {About} from "../../../../gatsby-theme-minimal";
 import {Cards} from "../../../../gatsby-theme-minimal";
-
-
+import {Footer} from "../../../../gatsby-theme-minimal";
 
 const Body=()=>{
       return (
@@ -15,7 +14,7 @@ const Body=()=>{
           <Cards/>
 
           </div>
-
+          <Footer/>
         </div>
       );
 

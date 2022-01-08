@@ -13,9 +13,6 @@
         position: relative;
         margin-top:3rem;
     }
-    #sectionAbout img{
-        margin-top: 2rem;
-    }
     #skillSection{
       //  background-color: #f2f7fd;
       //background-color: #dcdee0d0;
@@ -25,10 +22,19 @@
         overflow: hidden;
     }
     #sectionAbout{
+        
         padding:4rem;
         overflow: hidden;
+       position: relative;
+       .moiImg{
+        
+        margin-top: 2rem;
+    }
+
     }
     #timelineSection{
         background-color: #dcdee0d0;
+        padding:1rem;
     }
+
 }
