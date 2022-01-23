@@ -9,38 +9,38 @@ import Container from 'react-bootstrap/Container'
 const Skills=()=>{
 const SKILLS = [
     {
-      "type": "Java",
-      "level": 100
+      "type": "css",
+      "level": 80
     },
     {
       "type": "React",
-      "level": 85
+      "level": 75
     },
     {
       "type": "Javascript",
       "level": 75
     },
     {
-      "type": "Spring",
-      "level": 50
+      "type": "PHP",
+      "level": 70
     }
   ]
   const SKILLS2 = [
     {
-      "type": "Java",
-      "level": 100
+      "type": "Angular >2",
+      "level": 70
     },
     {
-      "type": "React",
-      "level": 85
+      "type": "HTML",
+      "level": 80
     },
     {
-      "type": "Javascript",
-      "level": 75
+      "type": "Wordpress",
+      "level": 65
     },
     {
-      "type": "Spring",
-      "level": 50
+      "type": "SQL",
+      "level": 70
     }
   ]
 

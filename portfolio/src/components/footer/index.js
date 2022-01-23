@@ -14,10 +14,10 @@ import github from'../../img/github.png';
         <footer>
               <Container style={{textAlign:"center"}}>
                   <Row /*style={{ transform: "translateY(100%)"}} */ >
-                  <Col><a><img src={linkedin} alt="linkedin"/></a></Col>
-                  <Col><a><img src={github} alt="github"/></a></Col>
-                      <Col><a><img src={facebook} alt="facebook"/></a></Col>
-                      <Col><a><img src={youtube} alt="youtube"/></a></Col>
+                  <Col><a href="https://www.linkedin.com/in/natacha-steiver-73268b191/" target="_blank" alt="natacha steiver linkedin"><img src={linkedin} alt="linkedin"/></a></Col>
+                  <Col><a href="https://github.com/natacha-steiver" target="_blank" alt="natacha steiver github"><img src={github} alt="github"/></a></Col>
+                      <Col><a href="https://www.facebook.com/natacha.steiver.77" target="_blank" alt="natacha steiver facebook"><img src={facebook} alt="facebook"/></a></Col>
+                      <Col><a href="https://www.youtube.com/channel/UCAR0tcI0By1AO0o0zov9zzA"  target="_blank" alt="natacha steiver youtube"><img src={youtube} alt="youtube"/></a></Col>
                      
 
                   </Row>
