@@ -27,7 +27,8 @@ module.exports = {
     "String.prototype.repeat",
     "Symbol",
     "window.fetch"
-    ]
+    ],
+    start_url: `/`
     }
   }
 
