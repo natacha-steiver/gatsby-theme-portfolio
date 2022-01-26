@@ -90,9 +90,8 @@ const Slide=()=>{
       };
       return (
         <div id="mainBody">
-        <Slider {...settings} style={window.innerWidth>992?
-        {margin:0,maxWidth:"70vw",position:"relative",left:"15%",maxHeight:"15rem"}
-      : {margin:0,maxWidth:"70vw",position:"relative",left:"15%",maxHeight:"8rem"}
+          {/* gérer width slide en media queries*/}
+        <Slider {...settings} style={ {margin:0,maxWidth:"70vw",position:"relative",left:"15%",maxHeight:"8rem"}
 
       }>
           {

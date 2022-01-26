@@ -1,5 +1,6 @@
 
 import React from "react";
+import SkillBar from 'react-skillbars';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./skills.scss";
 import {Row,Col} from 'react-bootstrap';
@@ -57,11 +58,13 @@ const SKILLS = [
         
     <Row  style={{maxWidth:'80%'}}  >
     <Col xs="12" lg="6" >
-n
+    <SkillBar skills={SKILLS} colors={colors} height={'3vh'} />
+
     </Col>
 
     <Col xs="12" lg="6">
-h
+    <SkillBar skills={SKILLS2} colors={colors} height={'3vh'} />
+
     </Col>
 
     </Row>

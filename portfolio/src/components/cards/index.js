@@ -46,10 +46,10 @@ const cardsList=[
       width: 4,
       height: 3,
       title:'MEAN stack',
-      description: "This is a self-taught project, a back office in Angular ",
+      description: "This is a self-taught project, a back office in Angular. Username: todo password: todo ",
       slug:"/",
-      url:'https://github.com/natacha-steiver/MEAN-stack-de-base',
-      btnTitle: "Go to github"
+      url:'https://gentle-earth-58765.herokuapp.com/',
+      btnTitle: "Visit the web site"
     },
     {
       src: '../../img/tfe.jpg',
@@ -66,7 +66,7 @@ const cardsList=[
       width: 4,
       height: 3,
       title:'wordpress theme - blue in',
-      description: "Develop a theme from A to Z  in PHP,CSS,JS",
+      description: "Develop a theme from A to Z  in PHP,CSS,JS - taxonomies, custom post type, archives" ,
       slug:'/',
       url:"https://github.com/natacha-steiver/blue-in",
       btnTitle: "Go to github"
@@ -76,7 +76,7 @@ const cardsList=[
       width: 4,
       height: 3,
       title:'App mobile (java android)',
-      description: "App in progress",
+      description: "App in progress... This app gives advices to feel better.",
       slug:'/',
       url:"https://github.com/natacha-steiver/android---1er-projet",
       btnTitle: "Go to github"

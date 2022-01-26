@@ -8,21 +8,22 @@ const showSettings=(event)=> {
 //!!!!!!!!!!!!!!!! problème width > 110% smartphone
 
  const AsideTop=()=>{
-
     return(
-        <aside className="mainAside">
-            <div id="menus">
-         { window.innerWidth < 992 ?  
+      //show/hide via css because document/window doesn't work
+      <aside>
+          <div id="menus">
+
+  
            
-        <>
+      
           <HamburgerButton/>
-        </>
+      
             
            
             
            
-             :
-<>
+            
+
   <Navbar  variant="light">
     <Container>
     <Navbar.Brand href="#home">Portfolio</Navbar.Brand>
@@ -34,8 +35,8 @@ const showSettings=(event)=> {
     </Nav>
     </Container>
   </Navbar>
-</>
-        }
+
+        
             </div>
 
         </aside>

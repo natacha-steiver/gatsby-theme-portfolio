@@ -69,7 +69,7 @@ const About=()=>{
     </Row>
 
     <Row id="skillSection">
-        <Skills/>
+       {/*<Skills/> skillbars doesn't work because use document issue build */} 
     </Row>
 
 
