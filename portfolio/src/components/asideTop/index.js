@@ -15,8 +15,10 @@ const showSettings=(event)=> {
 
   
            
-      
-          <HamburgerButton/>
+         <div id="hamburger">
+         <HamburgerButton />
+         </div>
+         
       
             
            
@@ -24,7 +26,7 @@ const showSettings=(event)=> {
            
             
 
-  <Navbar  variant="light">
+  <Navbar  variant="light" id="menuLarge">
     <Container>
     <Navbar.Brand href="#home">Portfolio</Navbar.Brand>
     <Nav className="me-auto">

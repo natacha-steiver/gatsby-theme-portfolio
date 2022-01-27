@@ -91,7 +91,7 @@ const Slide=()=>{
       return (
         <div id="mainBody">
           {/* gérer width slide en media queries*/}
-        <Slider {...settings} style={ {margin:0,maxWidth:"70vw",position:"relative",left:"15%",maxHeight:"8rem"}
+        <Slider {...settings} style={ {margin:0,maxWidth:"70vw",position:"relative",left:"15%",maxHeight:"15rem"}
 
       }>
           {

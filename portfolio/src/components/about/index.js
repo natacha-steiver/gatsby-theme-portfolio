@@ -40,6 +40,7 @@ const About=()=>{
     );
 
   }, []);
+  const isBrowser = typeof window !== "undefined"
       return (
       
     <div  id="about">
@@ -69,7 +70,7 @@ const About=()=>{
     </Row>
 
     <Row id="skillSection">
-      <Skills/> 
+       {isBrowser && <Skills/> } 
     </Row>
 
 

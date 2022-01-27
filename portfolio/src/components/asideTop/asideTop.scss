@@ -1,6 +1,24 @@
 body,html{
     margin: 0;
 }
+
+@media screen and( max-width:992px) {
+  #menuLarge{
+    display: none;
+  }
+  #hamburger{
+    display: block;
+  }
+}
+@media screen and( min-width:992px) {
+  #menuLarge{
+    display: block;
+  }
+  #hamburger{
+    display: none;
+  }
+}
+
 .mainAside{
     //background-color: red;
    // min-height: 5rem;

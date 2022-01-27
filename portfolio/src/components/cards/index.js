@@ -7,12 +7,19 @@ import { Button, CardActionArea, CardActions } from '@mui/material';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Row,Col} from 'react-bootstrap';
 import Container from 'react-bootstrap/Container'
+import basica from '../../img/basica.png';
+import laravel from '../../img/basica.png';
+import ReactOffice from '../../img/basica.png';
+import mean from '../../img/mean.png';
+import tfe from  '../../img/tfe.jpg';
+import wp from '../../img/wp.png';
+import mobile from  '../../img/mobile.png';
 
 import moi from'../../img/moi.png';
 
 const cardsList=[
     {
-      src: '../../img/basica.png',
+      src: basica,
       width: 4,
       height: 3,
       title:'Basica - old version',
@@ -22,7 +29,7 @@ const cardsList=[
       btnTitle: "Visit the web site"
     },
     {
-      src: '../../img/backofficeLaravel.JPG',
+      src: laravel,
       width: 4,
       height: 3,
       title:'Back Office laravel api',
@@ -32,7 +39,7 @@ const cardsList=[
       btnTitle: "Go to github"
     },
     {
-      src: '../../img/backofficeLaravel.JPG',
+      src: ReactOffice,
       width: 4,
       height: 3,
       title:'Back Office react front end',
@@ -42,7 +49,7 @@ const cardsList=[
       btnTitle: "Go to github"
     },
     {
-      src: '../../img/mean.png',
+      src: mean,
       width: 4,
       height: 3,
       title:'MEAN stack',
@@ -52,7 +59,7 @@ const cardsList=[
       btnTitle: "Visit the web site"
     },
     {
-      src: '../../img/tfe.jpg',
+      src:tfe,
       width: 4,
       height: 3,
       title:'Final work for my diploma',
@@ -62,7 +69,7 @@ const cardsList=[
       btnTitle: "Go to github"
     },
     {
-      src: '../../img/wp.png',
+      src: wp,
       width: 4,
       height: 3,
       title:'wordpress theme - blue in',
@@ -72,7 +79,7 @@ const cardsList=[
       btnTitle: "Go to github"
     },
     {
-      src: '../../img/mobile.png',
+      src: mobile,
       width: 4,
       height: 3,
       title:'App mobile (java android)',
