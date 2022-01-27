@@ -1,5 +1,8 @@
 
 import React from "react";
+if (typeof window !== `undefined`) {
+  const SkillBar = require("react-skillbars")
+}
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./skills.scss";
 import {Row,Col} from 'react-bootstrap';
@@ -42,7 +45,7 @@ const SKILLS = [
       "level": 70
     }
   ]
-
+  const isBrowser = typeof window !== "undefined"
   const colors = {
     "bar": "#3498db",
     "title": {
@@ -50,25 +53,29 @@ const SKILLS = [
       "background": "#2980b9"
     }
   }
+  
+
   return (
       <>
           <h2 id="skillTitle">My expertise area</h2>
-    <Container id="skills" style={{margin:"0 10%"}}>
+      {isBrowser && <Container id="skills" style={{margin:"0 10%"}}>
         
     <Row  style={{maxWidth:'80%'}}  >
     <Col xs="12" lg="6" >
-n
+    <SkillBar skills={SKILLS} colors={colors} height={'3vh'} />
+
     </Col>
 
     <Col xs="12" lg="6">
-h
+    <SkillBar skills={SKILLS2} colors={colors} height={'3vh'} />
+
     </Col>
 
     </Row>
 
 
     </Container>
-
+}
       </>
 
       
